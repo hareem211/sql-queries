@@ -57,3 +57,4 @@ HAVING
 ORDER by 2 desc -- order by min(sal) desc
 
 
+-- Another new query
