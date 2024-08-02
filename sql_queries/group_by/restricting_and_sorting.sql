@@ -135,3 +135,4 @@ where
 	job = 'clerk'
 	or job = 'salesman'
 	and sal not in(2500, 1500, 2000)
+	
