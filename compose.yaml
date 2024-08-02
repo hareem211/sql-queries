@@ -1,5 +1,5 @@
 
-services:
+services: #Services to be started in docker containers
   db:
     image: mysql
     restart: always
