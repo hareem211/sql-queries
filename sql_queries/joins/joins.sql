@@ -37,3 +37,30 @@ right join emp mgr
 on
 	emp.mgr = mgr.empno
 
+-- Query to display employee name , department name , location and commission of all employees who earn commission .
+
+select
+	ename ,
+	dname ,
+	loc ,
+	comm
+from
+	emp e
+join dept d 
+on
+	e.deptno = d.deptno
+where
+	comm is not null
+
+-- Query to display employee name and department name of employess who have a in their names.
+
+select
+	ename ,
+	dname
+from
+	emp e
+inner join dept d
+on
+	e.deptno = d.deptno
+where
+	ename like '%a%'
