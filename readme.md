@@ -1,10 +1,28 @@
 # DATABASE WITH DOCKER
 
+## INSTALLATION
+
+#### INSTALL DOCKER
+
+Download and install Docker from the official website
+
+https://www.docker.com/products/docker-desktop/
+
+#### PULL MYSQL IMAGE
+
+Pull the latest MySQL image from Docker Hub:
+
+    docker pull mysql
+
 ## START CONTAINER
 
 Start a mysql container using docker compose file.
 
     https://github.com/hareem211/sql-queries/blob/master/compose.yaml
+
+### CONNECT TO MYSQL CONTAINER
+
+    docker exec -it mydb mysql -uroot -p
 
 ## CREATE DATABASE
 
