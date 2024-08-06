@@ -4,6 +4,8 @@
 
 Start a mysql container using docker compose file.
 
+    https://github.com/hareem211/sql-queries/blob/master/compose.yaml
+
 ## CREATE DATABASE
 
 Create a new DATABASE mydb using using the MYSQL command-line tool.
